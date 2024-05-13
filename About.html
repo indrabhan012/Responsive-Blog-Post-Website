@@ -1,0 +1,118 @@
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge"> 
+        <title>About</title>
+        <link rel="stylesheet" type="text/css" href="index.css">
+        <style>
+            @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+  *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #eee;
+    width: 100%;
+    height: 100%;
+   
+    
+}
+.container {
+    max-width:  1200px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1rem 0.875rem;
+    
+
+}
+header{
+   background-color: #fff;
+   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+   position: sticky;
+   top: 0;
+   z-index: 99;
+   width: 100%;
+}
+
+a{
+    text-decoration: none;
+    color: #082032;
+}
+
+.logo{
+    font-size: 20px;
+}
+.menuToggle{
+    display: none;
+}
+
+.navigation{
+    list-style: none;
+    display: flex;
+}
+.header .navigation li{
+    margin-left: 1rem;
+    font-size: 1.1rem;
+    padding: 0.4rem;
+}
+
+.header .navigation li.active{
+        border-bottom: 2px solid blue;
+}
+
+.header .navigation li:hover{
+    border-bottom: 2px solid blue;
+}
+
+.about {
+    font-size: 15px;
+    font-family: sans-serif;
+    color: #082032;
+    gap: 2px;
+    text-align: center;
+    margin: 28px;padding: 38px;
+}
+p {
+    margin: 25px;
+     font-size: 15px;
+     font-family: sans-serif;
+     justify-content: space-between;
+
+}
+        </style>
+    </head>
+    
+    <body>
+        <header>
+            <div class="container header">
+                    <a href="" class="logo">Future.ai</Future></a>
+               
+                <div class="menuToggle">
+                    <i class="fas fa-bars"></i>
+                </div>
+        
+                <ul class="navigation">
+                    <li class="active"><a href="index.html">Home</a></li>
+                    <li><a href="Feature.html">Feature</a></li>
+                    <li><a href="About.html">About</a></li>
+                    <li><a href="Contact.html">Contact</a></li>
+                </ul>
+        
+            </div>
+        </header>
+        <section class="about">
+            <h2>About Us</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit dolores praesentium<br>
+               saepe molestiae eum, alias voluptates accusantium officiis perferendis quidem ratione<br>
+                tenetur commodi assumenda? Optio nihil fuga consequuntur eveniet explicabo.</p>
+        </section>
+    </body>
+</html>
+
+   
